@@ -1,4 +1,4 @@
-Uses MySQL as the database.
+Uses local MySQL as the database. Radar.com for Geocoding
 
 
 A .env file is needed with the following variables.
