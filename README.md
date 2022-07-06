@@ -15,4 +15,19 @@ The RADAR_API_KEY to be obtained from radar.com
 
 
 MySQL DB has 2 tables : rates(has transport cost details) and city_flags(has the city flags)
+
+
 Returns true or false based on the required conditions (distance,price,destination city flag)
+
+
+GET API endpoint : http://127.0.0.1:3000/api/v1/emailreq
+
+Body requires : 
+
+{
+    "from":"CityName",
+    "to":"CityName",
+    "Vehicle_type":"Luxury"
+}
+
+Vehicle_type can be any of the ones defined in the schema.
