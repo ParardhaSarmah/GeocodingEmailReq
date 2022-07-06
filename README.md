@@ -22,7 +22,7 @@ Returns true or false based on the required conditions (distance,price,destinati
 
 GET API endpoint : http://127.0.0.1:3000/api/v1/emailreq
 
-Body requires : 
+Request body requires : 
 
 {
     "from":"CityName",
